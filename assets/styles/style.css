@@ -1,0 +1,56 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Karma", sans-serif
+}
+
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.container{
+  max-width:1200px;
+  margin-top:100px;
+}
+
+.food-rows {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+  
+.dishes {
+  width: 23%;
+  margin: 8px;
+  text-align: center;
+}
+  
+.dishes h3 {
+  margin-top: 0;
+}
+  
+.dishes p {
+  margin-top: 0;
+}
+
+/* (max-width: 768px) */
+@media screen and (max-width: 600px) {
+  .food-rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    /* margin: auto; */
+  }
+        
+  .food-rows .dishes {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+  }
+}
